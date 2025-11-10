@@ -41,3 +41,8 @@ border-radius: 20px;
 display: block;
 margin: 30px auto;
 }
+.links-3{
+    justify-content: center;
+        display: flex;
+        margin-bottom: 50px;
+}
