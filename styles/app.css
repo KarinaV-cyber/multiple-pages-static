@@ -1,9 +1,16 @@
 body{
-    background-color: rgb(212, 169, 176);
+    background-color: rgb(241, 211, 216);
+    font-family: "Courier Prime",
+        monospace;
 }
 h1{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+}
+.container{
+    padding:50px;
+    margin: 0 auto;
+    display: block;
 }
 .links{
     display: flex;
@@ -13,8 +20,24 @@ h1{
     text-decoration: none;
     color: black;
     margin: 16px;
+    font-size: 18px;
 }
 .links-1:hover{
-    color: rgb(197, 21, 109);
+    color: rgb(189, 6, 98);
     text-decoration: underline;
+}
+.links-2{
+   justify-content: center;
+    display: flex;
+}
+.croissant-photo{
+  max-width: 50%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+.chocolate-croissant{
+border-radius: 20px;
+display: block;
+margin: 30px auto;
 }
