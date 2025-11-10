@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(212, 169, 176);
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links-1{
+    text-decoration: none;
+    color: black;
+    margin: 16px;
+}
+.links-1:hover{
+    color: rgb(197, 21, 109);
+    text-decoration: underline;
+}
