@@ -3,46 +3,73 @@ body{
     font-family: "Courier Prime",
         monospace;
 }
+main{
+    margin: 15px 0;
+    display: block;
+}
 h1{
     text-align: center;
     padding-bottom: 15px;
 }
-.container{
-    padding:50px;
-    margin: 0 auto;
-    display: block;
+a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 30px;
 }
-.links{
-    display: flex;
-    justify-content: center;
+a:hover{
+    text-decoration: underline;
+    color: rgb(236, 59, 148);
+    cursor: pointer;
 }
 .links-1{
-    text-decoration: none;
-    color: black;
-    margin: 16px;
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+      color: black;
+   font-size: 18px;
+     
 }
+
 .links-1:hover{
+    color: rgb(189, 6, 98);
+  }
+.blog{
+    padding: 40px;
+   text-align: center;
+}
+.links-2 {
+    justify-content: center;
+    margin: 0 auto;
     color: rgb(189, 6, 98);
     text-decoration: underline;
 }
-.links-2{
-   justify-content: center;
+
+.chocolate {
+max-width: 50%;
+border-radius: 30px;
+display: block;
+margin: 0 auto;
+
+}
+.links-3 {
+    justify-content: center;
+    margin-bottom: 30px;
     display: flex;
 }
-.croissant-photo{
-  max-width: 50%;
-  border-radius: 10px;
-  display: block;
-  margin: 30px auto;
+.croissant-4{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    max-width: 50%;
 }
-.chocolate-croissant{
-border-radius: 20px;
-display: block;
-margin: 30px auto;
+
+footer{
+    text-align: center;
+   display: block;
+    border-top: 1px solid #290a75;
+                  font-size: 14px;
 }
-.links-3{
-    justify-content: center;
-        display: flex;
-        margin-bottom: 50px;
+footer a{
+padding: 0;
 }
+
